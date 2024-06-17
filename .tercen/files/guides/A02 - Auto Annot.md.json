@@ -1,0 +1,48 @@
+{
+ "kind": "FileDocument",
+ "id": "guides/A02 - Auto Annot.md",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "A02 - Auto Annot.md",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "content-type",
+   "value": "text/markdown"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "24",
+ "dataUri": "2b/98/2b98a4f0-7e88-4fe7-9096-93fc9262410a",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 175
+}

@@ -1,0 +1,42 @@
+{
+ "kind": "FileDocument",
+ "id": "pdfs/A02-AutomatedAnnotation.pdf",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "A02-AutomatedAnnotation.pdf",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "25",
+ "dataUri": "ea/36/ea3611b6-13df-4d26-8509-d8b7844b741e",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 4790541
+}

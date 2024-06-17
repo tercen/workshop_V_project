@@ -1,0 +1,188 @@
+{
+ "kind": "CubeQueryTableSchema",
+ "id": "dffecbb519ea30ea2405cb391dd5781cf282977432e585e49d07fcd50aceb287",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "column",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "logicle..filename.size_in_bytes",
+   "value": "1055536"
+  },
+  {
+   "kind": "Pair",
+   "key": "logicle..condition.size_in_bytes",
+   "value": "598792"
+  },
+  {
+   "kind": "Pair",
+   "key": "logicle..donor.size_in_bytes",
+   "value": "527824"
+  },
+  {
+   "kind": "Pair",
+   "key": "logicle..sample_id.size_in_bytes",
+   "value": "633368"
+  },
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "dffecbb519ea30ea2405cb391dd5781cf282977432e585e49d07fcd50aceb287"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 35181,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "19e33551-b785-4a3c-a4a8-3690f40e2977",
+   "name": "logicle..condition",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "dee586bb-0768-460f-8c1d-68042c29adb8",
+   "name": "logicle..donor",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "02e5e4d7-45b3-468e-ae9e-5d699871acbd",
+   "name": "logicle..sample_id",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "bf246eca-f30f-4ce8-bf6b-efbf88e0703a",
+   "name": "logicle..filename",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "371a62f5-3210-4544-b5dc-4035830a1c76",
+   "name": "logicle..event_id",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/df/fe/dffecbb519ea30ea2405cb391dd5781cf282977432e585e49d07fcd50aceb287",
+ "relation": {
+  "kind": "Relation",
+  "id": "3ab13ca6-f9fb-46cb-baad-d0afb4000eab"
+ },
+ "queryHash": "d1a955e701ef0e5a48b49d1d851277fa",
+ "queryTableType": "column",
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "Relation",
+   "id": "f1d484fb-93d8-4509-bbc1-861b8d6988be"
+  },
+  "colColumns": [],
+  "rowColumns": [],
+  "axisQueries": [],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": []
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "",
+    "version": "",
+    "operatorId": "",
+    "operatorKind": "",
+    "propertyValues": [],
+    "url": {
+     "kind": "Url",
+     "uri": ""
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

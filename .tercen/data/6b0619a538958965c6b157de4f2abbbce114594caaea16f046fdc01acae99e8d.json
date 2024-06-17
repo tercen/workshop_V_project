@@ -1,0 +1,123 @@
+{
+ "kind": "CubeQueryTableSchema",
+ "id": "6b0619a538958965c6b157de4f2abbbce114594caaea16f046fdc01acae99e8d",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "lymphocytes",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "6b0619a538958965c6b157de4f2abbbce114594caaea16f046fdc01acae99e8d"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 841453,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "088c52da-53a3-44bc-8bc5-f2a3911f2eed",
+   "name": "gate.lymphocytes",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "5e6baf62-63c8-444a-9205-aed5d2fa8929",
+   "name": "event_id",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/6b/06/6b0619a538958965c6b157de4f2abbbce114594caaea16f046fdc01acae99e8d",
+ "relation": {
+  "kind": "Relation",
+  "id": "8a5eb2e1-fd8d-4fb1-9254-d84d0ea4c81e"
+ },
+ "queryHash": "d1a955e701ef0e5a48b49d1d8514b0c6",
+ "queryTableType": "row",
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "Relation",
+   "id": "25c4804c-8db7-4f20-b6b2-816270708b95"
+  },
+  "colColumns": [],
+  "rowColumns": [],
+  "axisQueries": [],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": []
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "",
+    "version": "",
+    "operatorId": "",
+    "operatorKind": "",
+    "propertyValues": [],
+    "url": {
+     "kind": "Url",
+     "uri": ""
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

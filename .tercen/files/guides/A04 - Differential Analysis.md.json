@@ -1,0 +1,48 @@
+{
+ "kind": "FileDocument",
+ "id": "guides/A04 - Differential Analysis.md",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "A04 - Differential Analysis.md",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "content-type",
+   "value": "text/markdown"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "24",
+ "dataUri": "84/56/84565529-7a62-47a3-a3fb-650775c6a927",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 187
+}

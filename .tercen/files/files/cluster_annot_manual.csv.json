@@ -1,0 +1,42 @@
+{
+ "kind": "FileDocument",
+ "id": "files/cluster_annot_manual.csv",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "cluster_annot_manual.csv",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "18",
+ "dataUri": "b2/f3/b2f3aa74-30d0-410b-b58c-3a53e3403ffa",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 47
+}

@@ -1,0 +1,48 @@
+{
+ "kind": "FileDocument",
+ "id": "guides/A00 - Intro to Cluster Annot.md",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "A00 - Intro to Cluster Annot.md",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "content-type",
+   "value": "text/markdown"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "24",
+ "dataUri": "b3/70/b37056fc-0918-4c26-9f6c-ce2a73452d95",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 312
+}

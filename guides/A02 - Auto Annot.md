@@ -1,0 +1,1 @@
+<iframe src="https://scribehow.com/embed/A02__Automated_Annotation__hafKB4fDSfS9yADdXltt8Q?removeLogo=true" width="100%" height="640" allowfullscreen frameborder="0"></iframe>

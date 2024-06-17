@@ -1,0 +1,64 @@
+{
+ "kind": "TableSchema",
+ "id": "13",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "4files.zip",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 0,
+ "columns": [],
+ "dataDirectory": "",
+ "relation": {
+  "kind": "CompositeRelation",
+  "id": "fec0a02e-dcd2-4cdb-b39a-e64c597ae995",
+  "joinOperators": [
+   {
+    "kind": "JoinOperator",
+    "joinType": "leftOuter",
+    "leftPair": {
+     "kind": "ColumnPair",
+     "lColumns": [
+      "event_id"
+     ],
+     "rColumns": [
+      "event_id"
+     ]
+    },
+    "rightRelation": {
+     "kind": "SimpleRelation",
+     "id": "0e190ef13095e933da22380abe7b9506cb2ba4fe017e7de6dfece8b9ddc3eea8",
+     "index": 0
+    }
+   }
+  ],
+  "mainRelation": {
+   "kind": "SimpleRelation",
+   "id": "bc2a6e7422518d34dac4d152ab041d50c9144a5c6f29dc6da6cf2b3d6c480af6",
+   "index": 0
+  }
+ }
+}

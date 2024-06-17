@@ -1,0 +1,42 @@
+{
+ "kind": "FileDocument",
+ "id": "pdfs/A04-DifferentialExpressionAnalysis.pdf",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "A04-DifferentialExpressionAnalysis.pdf",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "25",
+ "dataUri": "cf/67/cf67e686-2ba9-45c2-96ec-d23e24827d84",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 2751664
+}

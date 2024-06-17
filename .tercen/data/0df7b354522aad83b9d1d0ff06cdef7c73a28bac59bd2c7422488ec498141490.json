@@ -1,0 +1,624 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "0df7b354522aad83b9d1d0ff06cdef7c73a28bac59bd2c7422488ec498141490",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "c5aae360-d75d-1034-8fce-234ed5430b43",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "0df7b354522aad83b9d1d0ff06cdef7c73a28bac59bd2c7422488ec498141490"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 351810,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "b61db94d-4bc3-4dbb-8956-45722cff2e7b",
+   "name": "data.identity",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "00a317a4-6b14-4a31-b11c-a4ff85abfe58",
+   "name": ".ci",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "f2696832-31d9-43fe-a1b2-1812e1d42429",
+   "name": ".ri",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/0d/f7/0df7b354522aad83b9d1d0ff06cdef7c73a28bac59bd2c7422488ec498141490",
+ "relation": {
+  "kind": "Relation",
+  "id": "ef1cf8c3-f9e8-469f-850b-90d5f694070f"
+ },
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "CompositeRelation",
+   "id": "1582f86c-3813-49c0-9903-a1adcfe28f68",
+   "joinOperators": [
+    {
+     "kind": "JoinOperator",
+     "joinType": "leftOuter",
+     "leftPair": {
+      "kind": "ColumnPair",
+      "lColumns": [
+       "event_id"
+      ],
+      "rColumns": [
+       "event_id"
+      ]
+     },
+     "rightRelation": {
+      "kind": "SimpleRelation",
+      "id": "16dcd7354c865a9bcf553e4b4dc414399eab8be9a8171896394d1dfd8241ccac",
+      "index": 7
+     }
+    }
+   ],
+   "mainRelation": {
+    "kind": "CompositeRelation",
+    "id": "fb5b740a-0b75-476e-9a00-123ce7850374",
+    "joinOperators": [
+     {
+      "kind": "JoinOperator",
+      "joinType": "leftOuter",
+      "leftPair": {
+       "kind": "ColumnPair",
+       "lColumns": [
+        "sample.condition",
+        "sample.donor",
+        "sample.sample_id",
+        "filename",
+        "event_id",
+        "marker.marker",
+        "marker.channel_id"
+       ],
+       "rColumns": [
+        "sample.condition",
+        "sample.donor",
+        "sample.sample_id",
+        "filename",
+        "event_id",
+        "marker.marker",
+        "marker.channel_id"
+       ]
+      },
+      "rightRelation": {
+       "kind": "RenameRelation",
+       "id": "9b80f585-c0c5-4810-9fb4-4de917bb8c63",
+       "relation": {
+        "kind": "CompositeRelation",
+        "id": "279c0eff-3519-4e56-8229-545f3f68af19",
+        "joinOperators": [
+         {
+          "kind": "JoinOperator",
+          "joinType": "leftOuter",
+          "leftPair": {
+           "kind": "ColumnPair",
+           "lColumns": [
+            ".ri"
+           ],
+           "rColumns": [
+            "115d1c447f5aed5775b94727a58bb6f57fbe1337fcf7bf97a58ba9f2eefc7946._rids"
+           ]
+          },
+          "rightRelation": {
+           "kind": "SimpleRelation",
+           "id": "115d1c447f5aed5775b94727a58bb6f57fbe1337fcf7bf97a58ba9f2eefc7946",
+           "index": 6
+          }
+         }
+        ],
+        "mainRelation": {
+         "kind": "CompositeRelation",
+         "id": "9df7fbf4-f9e3-4841-9345-7913cdd9daaa",
+         "joinOperators": [
+          {
+           "kind": "JoinOperator",
+           "joinType": "leftOuter",
+           "leftPair": {
+            "kind": "ColumnPair",
+            "lColumns": [
+             ".ci"
+            ],
+            "rColumns": [
+             "1e40ed899660c3aac11900831c846dc544cb7db077ada47b7a304144f888a95e._rids"
+            ]
+           },
+           "rightRelation": {
+            "kind": "SimpleRelation",
+            "id": "1e40ed899660c3aac11900831c846dc544cb7db077ada47b7a304144f888a95e",
+            "index": 5
+           }
+          }
+         ],
+         "mainRelation": {
+          "kind": "SimpleRelation",
+          "id": "6f2a7cf4b4153a55fd405ca5994040624bf5263ea3512045b40cfed06b0b4632",
+          "index": 4
+         }
+        }
+       },
+       "inNames": [
+        ".ci",
+        ".ri",
+        "logicle.value",
+        "6f2a7cf4b4153a55fd405ca5994040624bf5263ea3512045b40cfed06b0b4632._rids",
+        "6f2a7cf4b4153a55fd405ca5994040624bf5263ea3512045b40cfed06b0b4632.tlbId",
+        "sample.condition",
+        "sample.donor",
+        "sample.sample_id",
+        "filename",
+        "event_id",
+        "1e40ed899660c3aac11900831c846dc544cb7db077ada47b7a304144f888a95e._rids",
+        "1e40ed899660c3aac11900831c846dc544cb7db077ada47b7a304144f888a95e.tlbId",
+        "marker.marker",
+        "marker.channel_id",
+        "115d1c447f5aed5775b94727a58bb6f57fbe1337fcf7bf97a58ba9f2eefc7946._rids",
+        "115d1c447f5aed5775b94727a58bb6f57fbe1337fcf7bf97a58ba9f2eefc7946.tlbId",
+        "sample.condition",
+        "sample.donor",
+        "sample.sample_id",
+        "filename",
+        "event_id",
+        "marker.marker",
+        "marker.channel_id"
+       ],
+       "outNames": [
+        ".ci",
+        ".ri",
+        "logicle.value",
+        "6f2a7cf4b4153a55fd405ca5994040624bf5263ea3512045b40cfed06b0b4632._rids",
+        "6f2a7cf4b4153a55fd405ca5994040624bf5263ea3512045b40cfed06b0b4632.tlbId",
+        "sample.condition",
+        "sample.donor",
+        "sample.sample_id",
+        "filename",
+        "event_id",
+        "1e40ed899660c3aac11900831c846dc544cb7db077ada47b7a304144f888a95e._rids",
+        "1e40ed899660c3aac11900831c846dc544cb7db077ada47b7a304144f888a95e.tlbId",
+        "marker.marker",
+        "marker.channel_id",
+        "115d1c447f5aed5775b94727a58bb6f57fbe1337fcf7bf97a58ba9f2eefc7946._rids",
+        "115d1c447f5aed5775b94727a58bb6f57fbe1337fcf7bf97a58ba9f2eefc7946.tlbId",
+        "logicle..condition",
+        "logicle..donor",
+        "logicle..sample_id",
+        "logicle..filename",
+        "logicle..event_id",
+        "logicle..marker",
+        "logicle..channel_id"
+       ]
+      }
+     }
+    ],
+    "mainRelation": {
+     "kind": "CompositeRelation",
+     "id": "7c01cf03-4de8-4844-8bd7-dd75ed135985",
+     "joinOperators": [
+      {
+       "kind": "JoinOperator",
+       "joinType": "r.o.f",
+       "leftPair": {
+        "kind": "ColumnPair",
+        "lColumns": [
+         "channel.variable"
+        ],
+        "rColumns": [
+         "marker.channel"
+        ]
+       },
+       "rightRelation": {
+        "kind": "RenameRelation",
+        "id": "26672de5-0cf9-4d78-90c8-b492628d53dc",
+        "relation": {
+         "kind": "RenameRelation",
+         "id": "7b2ade1d-3558-47d4-9cb4-8a5f357c6cdf",
+         "relation": {
+          "kind": "SimpleRelation",
+          "id": "c4ff47e4825faed950320f6ec8118250bbc2f4d735d5d8c6f54d3dc5f159bc8a",
+          "index": 3
+         },
+         "inNames": [
+          "channel",
+          "marker",
+          "channel_id",
+          "type",
+          "c4ff47e4825faed950320f6ec8118250bbc2f4d735d5d8c6f54d3dc5f159bc8a._rids",
+          "c4ff47e4825faed950320f6ec8118250bbc2f4d735d5d8c6f54d3dc5f159bc8a.tlbId"
+         ],
+         "outNames": [
+          "channel",
+          "marker",
+          "channel_id",
+          "type",
+          "rowId",
+          "tableId"
+         ]
+        },
+        "inNames": [
+         "channel",
+         "marker",
+         "channel_id",
+         "type",
+         "rowId",
+         "tableId"
+        ],
+        "outNames": [
+         "marker.channel",
+         "marker.marker",
+         "marker.channel_id",
+         "marker.type",
+         "marker.rowId",
+         "marker.tableId"
+        ]
+       }
+      }
+     ],
+     "mainRelation": {
+      "kind": "GatherRelation",
+      "id": "cb401c10-4508-4602-b3bb-bed5c592a784",
+      "relation": {
+       "kind": "CompositeRelation",
+       "id": "3e8b1b05-83c1-4ee6-93ce-d5e5545cac1b",
+       "joinOperators": [
+        {
+         "kind": "JoinOperator",
+         "joinType": "r.o.f",
+         "leftPair": {
+          "kind": "ColumnPair",
+          "lColumns": [
+           "filename"
+          ],
+          "rColumns": [
+           "sample.filename"
+          ]
+         },
+         "rightRelation": {
+          "kind": "RenameRelation",
+          "id": "25df6558-c632-4bd6-9dc9-d9e1c187b190",
+          "relation": {
+           "kind": "RenameRelation",
+           "id": "58bdd976-bed4-460a-b0f2-bf8b7992d00b",
+           "relation": {
+            "kind": "SimpleRelation",
+            "id": "65e0138d111eb0f4ec0175a9bb4a46c8c5fa4aee858851b9cf8616e8f22962fa",
+            "index": 2
+           },
+           "inNames": [
+            "filename",
+            "sample_id",
+            "condition",
+            "donor",
+            "65e0138d111eb0f4ec0175a9bb4a46c8c5fa4aee858851b9cf8616e8f22962fa._rids",
+            "65e0138d111eb0f4ec0175a9bb4a46c8c5fa4aee858851b9cf8616e8f22962fa.tlbId"
+           ],
+           "outNames": [
+            "filename",
+            "sample_id",
+            "condition",
+            "donor",
+            "rowId",
+            "tableId"
+           ]
+          },
+          "inNames": [
+           "filename",
+           "sample_id",
+           "condition",
+           "donor",
+           "rowId",
+           "tableId"
+          ],
+          "outNames": [
+           "sample.filename",
+           "sample.sample_id",
+           "sample.condition",
+           "sample.donor",
+           "sample.rowId",
+           "sample.tableId"
+          ]
+         }
+        }
+       ],
+       "mainRelation": {
+        "kind": "RenameRelation",
+        "id": "e884760a-ee98-4605-996d-fc3b9d369229",
+        "relation": {
+         "kind": "CompositeRelation",
+         "id": "7cac1426-7db9-410f-a15c-88699858d72b",
+         "joinOperators": [
+          {
+           "kind": "JoinOperator",
+           "joinType": "leftOuter",
+           "leftPair": {
+            "kind": "ColumnPair",
+            "lColumns": [
+             "event_id"
+            ],
+            "rColumns": [
+             "event_id"
+            ]
+           },
+           "rightRelation": {
+            "kind": "SimpleRelation",
+            "id": "0e190ef13095e933da22380abe7b9506cb2ba4fe017e7de6dfece8b9ddc3eea8",
+            "index": 1
+           }
+          }
+         ],
+         "mainRelation": {
+          "kind": "SimpleRelation",
+          "id": "bc2a6e7422518d34dac4d152ab041d50c9144a5c6f29dc6da6cf2b3d6c480af6",
+          "index": 0
+         }
+        },
+        "inNames": [
+         "FSC-A",
+         "FSC-H",
+         "SSC-A",
+         "AARD-A",
+         "APC-H7-A",
+         "Ax488-A",
+         "Ax647-A",
+         "Ax700-A",
+         "PE-A",
+         "PE-Cy5-A",
+         "PE-Cy7-A",
+         "PE-TxRed-A",
+         "PacBlue-A",
+         "Time",
+         "fileId",
+         "event_id",
+         "filename"
+        ],
+        "outNames": [
+         "FSC-A",
+         "FSC-H",
+         "SSC-A",
+         "AARD-A",
+         "APC-H7-A",
+         "Ax488-A",
+         "Ax647-A",
+         "Ax700-A",
+         "PE-A",
+         "PE-Cy5-A",
+         "PE-Cy7-A",
+         "PE-TxRed-A",
+         "PacBlue-A",
+         "Time",
+         "fileId",
+         "event_id",
+         "filename"
+        ]
+       }
+      },
+      "names": [
+       "AARD-A",
+       "APC-H7-A",
+       "Ax488-A",
+       "Ax647-A",
+       "Ax700-A",
+       "PE-A",
+       "PE-Cy5-A",
+       "PE-Cy7-A",
+       "PE-TxRed-A",
+       "PacBlue-A"
+      ],
+      "valueName": "channel.value",
+      "variableName": "channel.variable",
+      "valueType": "double",
+      "gatherType": ""
+     }
+    }
+   }
+  },
+  "colColumns": [
+   {
+    "kind": "Factor",
+    "name": "logicle..condition",
+    "type": "string"
+   },
+   {
+    "kind": "Factor",
+    "name": "logicle..donor",
+    "type": "string"
+   },
+   {
+    "kind": "Factor",
+    "name": "logicle..sample_id",
+    "type": "string"
+   },
+   {
+    "kind": "Factor",
+    "name": "logicle..filename",
+    "type": "string"
+   },
+   {
+    "kind": "Factor",
+    "name": "logicle..event_id",
+    "type": "int32"
+   }
+  ],
+  "rowColumns": [
+   {
+    "kind": "Factor",
+    "name": "marker.type",
+    "type": "string"
+   },
+   {
+    "kind": "Factor",
+    "name": "logicle..marker",
+    "type": "string"
+   }
+  ],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "logicle.value",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": [
+    {
+     "kind": "NamedFilter",
+     "logical": "and",
+     "not": false,
+     "filterExprs": [
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "1",
+       "factor": {
+        "kind": "Factor",
+        "name": "gate.live",
+        "type": "double"
+       }
+      }
+     ],
+     "meta": [],
+     "name": "gate.live"
+    }
+   ]
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "data",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "Identity",
+    "version": "0.1.2",
+    "operatorId": "15",
+    "operatorKind": "ROperator",
+    "propertyValues": [],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/tercen/identity_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [
+    {
+     "kind": "Pair",
+     "key": "cpu",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "ram",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "cpu-shares",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "tercen.collect.stats",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "debug",
+     "value": "false"
+    }
+   ],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

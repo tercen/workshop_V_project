@@ -1,0 +1,275 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "57b9070e575951c8b58c7577c36922316cb7fc83f1b95e4946c504aefc7ba450-1",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "0e56d0d0-d743-1034-8fce-234ed5430b43",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "57b9070e575951c8b58c7577c36922316cb7fc83f1b95e4946c504aefc7ba450"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 1101564,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "fb7b021c-e16d-426b-ae23-48fa947239c6",
+   "name": ".ci",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "ffa0698e-b171-45af-bc29-dbf7336191fd",
+   "name": "ds2.random_sequence",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "f6e1a2f6-7f92-49a3-b97c-4c773698edfb",
+   "name": "ds2.random_percentage",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/57/b9/57b9070e575951c8b58c7577c36922316cb7fc83f1b95e4946c504aefc7ba450",
+ "relation": {
+  "kind": "Relation",
+  "id": "e707ef83-181f-46a1-b805-e2dc58b4ee7f"
+ },
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "GatherRelation",
+   "id": "41eefd0b-11cd-4493-88eb-8850502af432",
+   "relation": {
+    "kind": "RenameRelation",
+    "id": "079a4655-690b-4446-91b5-734b77785c9d",
+    "relation": {
+     "kind": "CompositeRelation",
+     "id": "e4e4fe35-537f-4546-80a6-1ac29670af4e",
+     "joinOperators": [
+      {
+       "kind": "JoinOperator",
+       "joinType": "leftOuter",
+       "leftPair": {
+        "kind": "ColumnPair",
+        "lColumns": [
+         "event_id"
+        ],
+        "rColumns": [
+         "event_id"
+        ]
+       },
+       "rightRelation": {
+        "kind": "SimpleRelation",
+        "id": "0e190ef13095e933da22380abe7b9506cb2ba4fe017e7de6dfece8b9ddc3eea8",
+        "index": 1
+       }
+      }
+     ],
+     "mainRelation": {
+      "kind": "SimpleRelation",
+      "id": "bc2a6e7422518d34dac4d152ab041d50c9144a5c6f29dc6da6cf2b3d6c480af6",
+      "index": 0
+     }
+    },
+    "inNames": [
+     "FSC-A",
+     "FSC-H",
+     "SSC-A",
+     "AARD-A",
+     "APC-H7-A",
+     "Ax488-A",
+     "Ax647-A",
+     "Ax700-A",
+     "PE-A",
+     "PE-Cy5-A",
+     "PE-Cy7-A",
+     "PE-TxRed-A",
+     "PacBlue-A",
+     "Time",
+     "fileId",
+     "event_id",
+     "filename"
+    ],
+    "outNames": [
+     "FSC-A",
+     "FSC-H",
+     "SSC-A",
+     "AARD-A",
+     "APC-H7-A",
+     "Ax488-A",
+     "Ax647-A",
+     "Ax700-A",
+     "PE-A",
+     "PE-Cy5-A",
+     "PE-Cy7-A",
+     "PE-TxRed-A",
+     "PacBlue-A",
+     "Time",
+     "fileId",
+     "event_id",
+     "filename"
+    ]
+   },
+   "names": [
+    "AARD-A",
+    "APC-H7-A",
+    "Ax488-A",
+    "Ax647-A",
+    "Ax700-A",
+    "PE-A",
+    "PE-Cy5-A",
+    "PE-Cy7-A",
+    "PE-TxRed-A",
+    "PacBlue-A"
+   ],
+   "valueName": "channel.value",
+   "variableName": "channel.variable",
+   "valueType": "double",
+   "gatherType": ""
+  },
+  "colColumns": [
+   {
+    "kind": "Factor",
+    "name": "event_id",
+    "type": "int32"
+   }
+  ],
+  "rowColumns": [
+   {
+    "kind": "Factor",
+    "name": "channel.variable",
+    "type": "string"
+   }
+  ],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "channel.value",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [
+     {
+      "kind": "Factor",
+      "name": "filename",
+      "type": "string"
+     }
+    ],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": []
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "ds2",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "Downsample",
+    "version": "2.0.0",
+    "operatorId": "4",
+    "operatorKind": "ROperator",
+    "propertyValues": [
+     {
+      "kind": "PropertyValue",
+      "name": "seed",
+      "value": "-1"
+     }
+    ],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/tercen/downsample_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}
